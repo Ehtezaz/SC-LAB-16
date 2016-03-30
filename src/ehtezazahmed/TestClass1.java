@@ -12,6 +12,10 @@ public class TestClass1 {
 		// TODO Auto-generated constructor stub
 	}
 	
+	public void calculatePercentage(){
+		System.out.println("Hellow World..");
+	}
+	
 	public void calculateMarks(){
 		System.out.println("Hellow World..");
 	}
