@@ -13,6 +13,7 @@ public class TestClass1 {
 		englishMarks = 0.0;
 		urduMarks = 0.0;
 		mathMarks = 0.0;
+		percentage = 0.0;
 	}
 	
 	public void getMarks(double eng,double urdu,double math){
@@ -22,7 +23,9 @@ public class TestClass1 {
 	}
 	
 	public void calculatePercentage(){
-		System.out.println("Hellow World..");
+		int total = 300;
+		percentage = (totalMarks/total)*100;
+		System.out.println("Hellow World..\n Percentage : " + percentage);
 	}
 	
 	public void calculateMarks(){
