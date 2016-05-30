@@ -7,6 +7,7 @@ public class Main {
 
 		TestClass1 tc1 = new TestClass1();
 		tc1.calculateMarks();
+		tc1.calculatePercentage();
 	}
 
 }
