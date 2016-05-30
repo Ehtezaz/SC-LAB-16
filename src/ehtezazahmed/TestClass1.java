@@ -10,6 +10,15 @@ public class TestClass1 {
 	
 	public TestClass1() {
 		// TODO Auto-generated constructor stub
+		englishMarks = 0.0;
+		urduMarks = 0.0;
+		mathMarks = 0.0;
+	}
+	
+	public void getMarks(double eng,double urdu,double math){
+		englishMarks = eng;
+		urduMarks = urdu;
+		mathMarks = math;
 	}
 	
 	public void calculatePercentage(){
@@ -17,7 +26,8 @@ public class TestClass1 {
 	}
 	
 	public void calculateMarks(){
-		System.out.println("Hellow World..");
+		totalMarks = englishMarks + urduMarks + mathMarks;
+		System.out.println("Total Marks.. "+ totalMarks);		
 	}
 	
 	
